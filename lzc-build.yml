@@ -1,0 +1,11 @@
+manifest: ./lzc-manifest.yml
+pkgout: ./dist
+icon: ./icon.png
+compose_override:
+  services:
+    dozzle:
+      volumes:
+        - source: /lzcsys/run/lzc-docker/docker.sock
+          target: /var/run/docker.sock
+          type: bind
+          read_only: true

@@ -1,0 +1,24 @@
+package: community.lazycat.app.dozzle
+version: 10.10.0
+name: Dozzle
+description: Realtime log viewer for containers. Supports Docker, Swarm and K8s.
+min_os_version: 1.5.0
+author: amir20
+license: MIT
+homepage: https://github.com/amir20/dozzle
+unsupported_platforms:
+  - ios
+  - android
+  - tvos
+locales:
+  zh:
+    name: Dozzle
+    description: 支持 Docker、Swarm 和 Kubernetes 的实时容器日志查看器。
+  en:
+    name: Dozzle
+    description: Realtime log viewer for containers. Supports Docker, Swarm and K8s.
+permissions:
+  required:
+    - net.internet
+    - net.lan
+    - compose.override
