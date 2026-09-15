@@ -1,5 +1,5 @@
 package: community.lazycat.app.dozzle
-version: 11.0.1
+version: 11.1.0
 name: Dozzle
 description: Realtime log viewer for containers. Supports Docker, Swarm and K8s.
 min_os_version: 1.5.0

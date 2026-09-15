@@ -5,8 +5,8 @@ application:
       backend: http://dozzle:8080/
 services:
   dozzle:
-    # upstream: docker.io/amir20/dozzle:v11.0.1
-    image: docker.1ms.run/amir20/dozzle:v11.0.1
+    # upstream: docker.io/amir20/dozzle:v11.1.0
+    image: docker.1ms.run/amir20/dozzle:v11.1.0
     environment:
       - DOZZLE_ADDR=:8080
       - DOZZLE_NO_ANALYTICS=true
